@@ -11,14 +11,14 @@ set autoread
 set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
+" 右下に桁数を表示させる
+set ruler
 
 " 見た目系
 " 行番号を表示
 set number
 " 行末の1文字先までカーソルを移動できるように
 set virtualedit=onemore
-" ビープ音を可視化
-"set visualbell
 " 括弧入力時の対応する括弧を表示
 set showmatch
 " ステータスラインを常に表示
@@ -42,7 +42,6 @@ set list listchars=tab:\▸\-
 set tabstop=4
 " 行頭でのTab文字の表示幅
 set shiftwidth=4
-
 
 " 検索系
 " 検索文字列が小文字の場合は大文字小文字を区別なく検索する
