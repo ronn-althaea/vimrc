@@ -13,6 +13,8 @@ set hidden
 set showcmd
 " 右下に桁数を表示させる
 set ruler
+" バックスペースで改行を削除する
+set backspace=2
 
 " 見た目系
 " 行番号を表示
