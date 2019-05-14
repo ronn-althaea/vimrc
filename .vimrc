@@ -38,6 +38,8 @@ syntax on
 colorscheme delek
 
 " Tab系
+" TABキーを押した際にスペースに変換する
+set expandtab
 " 不可視文字を可視化(タブが「▸-」と表示される)
 set list listchars=tab:\▸\-
 " 行頭以外のTab文字の表示幅（スペースいくつ分）
